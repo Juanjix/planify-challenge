@@ -2,7 +2,14 @@ import styled from "styled-components";
 
 const StyledCardCategories = styled.div``;
 
-const CardCategories = () => {
+interface CardCategoriesProps {
+  id: string;
+  name: string;
+  description: string;
+  category: string;
+}
+
+const CardCategories = (props: CardCategoriesProps) => {
   return <StyledCardCategories></StyledCardCategories>;
 };
 
