@@ -1,4 +1,4 @@
-const slot = {
+const Slot = {
   date: "2024-04-26",
   serviceId: 3,
   availableTimeslots: [
@@ -20,3 +20,5 @@ const slot = {
     "17:00",
   ],
 };
+
+export default Slot;

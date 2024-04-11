@@ -62,3 +62,5 @@ const services = [
     category: "Facial Care",
   },
 ];
+
+export default services;
